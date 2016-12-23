@@ -58,7 +58,7 @@ u8 m_FirmwareIdx = 0;
 static bool ta_connected =0;
 #define ZINITIX_DEBUG				1
 #define ZINITIX_I2C_CHECKSUM		1
-#define TOUCH_BOOSTER			1
+#define TOUCH_BOOSTER			0
 #define NOT_SUPPORTED_TOUCH_DUMMY_KEY
 #if TOUCH_BOOSTER
 #include <linux/cpufreq.h>
